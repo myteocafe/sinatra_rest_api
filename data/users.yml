@@ -1,0 +1,35 @@
+-
+  name: 'Beatrice Musca'
+  idc: '100000'
+  cards:
+    -
+      number: '4557885800000000'
+      pin4: '1234'
+      expiry_date: '12/16'
+      status: 'active'
+      accounts:
+        -
+          number: '1923459939932390'
+          currency: 'soles'
+          balance: '45678.00'
+          type: 'sueldo'
+        -
+          number: '1923459939932391'
+          currency: 'dolares'
+          balance: '189.00'
+          type: 'premio'
+-
+  name: 'Brent Taggart'
+  idc: '100001'
+  cards:
+    -
+      number: '4557888898876665'
+      pin4: '1234'
+      expiry_date: '12/19'
+      status: 'active'
+      accounts:
+        -
+          number: '1923459939932776'
+          currency: 'soles'
+          balance: '455.00'
+          type: 'sueldo'

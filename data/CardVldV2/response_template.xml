@@ -1,0 +1,56 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP-ENV:Header></SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <mfx:MFX_CardVld xmlns:mfx="http://mfxV1_1/CardVldV2">
+      <mfx:CardVldRs>
+        <mfx:Status>
+          <mfx:StatusCod>MB0000</mfx:StatusCod>
+          <mfx:Severidad>Informacion</mfx:Severidad>
+          <mfx:StatusDes>El servicio se ejecuto con exito</mfx:StatusDes>
+          <mfx:ServStatus>
+            <mfx:ServStatusCod>NS0000</mfx:ServStatusCod>
+            <mfx:Severidad>Informacion</mfx:Severidad>
+            <mfx:StatusDes>PROCESO CONFORME</mfx:StatusDes>
+          </mfx:ServStatus>
+        </mfx:Status>
+        <mfx:RqUID>550e8400-e29b-41d4-a716-446655440000</mfx:RqUID>
+        <mfx:MsjRsHdr>
+          <mfx:CtxRsHdr>
+            <mfx:ServFec>2016-06-27T18:54:09</mfx:ServFec>
+            <mfx:ClientTrmId>
+              <mfx:ClientTrmServ/>
+            </mfx:ClientTrmId>
+            <mfx:OpnNro>00000164</mfx:OpnNro>
+            <mfx:ClientApp>
+              <mfx:OrgCod>1</mfx:OrgCod>
+              <mfx:ClientCod>BM</mfx:ClientCod>
+            </mfx:ClientApp>
+          </mfx:CtxRsHdr>
+        </mfx:MsjRsHdr>
+        <mfx:CardVldReg>
+          <mfx:CardVldInfo>
+            <mfx:CardSituacionCod>00</mfx:CardSituacionCod>
+            <mfx:CardSituacionDes>TARJETA CONFIRMADA</mfx:CardSituacionDes>
+            <mfx:CltNom>
+              <mfx:NomCompleto>[NAME]</mfx:NomCompleto>
+            </mfx:CltNom>
+            <mfx:ClaveOnLineTp>1</mfx:ClaveOnLineTp>
+            <mfx:IDC>[IDC]</mfx:IDC>
+            <mfx:CardClaveOrigFlg>1</mfx:CardClaveOrigFlg>
+          </mfx:CardVldInfo>
+        </mfx:CardVldReg>
+        <mfx:CardVldInfoClt>
+          <mfx:MsgId>PROCESO CONFORME</mfx:MsgId>
+          <mfx:CardOnlineFlg>0</mfx:CardOnlineFlg>
+          <mfx:RetiroEftFlg>0</mfx:RetiroEftFlg>
+          <mfx:StatusClt>
+            <mfx:OrgCod>0</mfx:OrgCod>
+          </mfx:StatusClt>
+          <mfx:StatusVld>
+            <mfx:CtaStatusDes>0</mfx:CtaStatusDes>
+          </mfx:StatusVld>
+        </mfx:CardVldInfoClt>
+      </mfx:CardVldRs>
+    </mfx:MFX_CardVld>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
